@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664E4C554A572BD60B780B56 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 110A9A89971B225AF52C0C8F /* PrivacyInfo.xcprivacy */; };
+		72931B51E887708AC97467BD /* ../Shared/Web in Resources */ = {isa = PBXBuildFile; fileRef = A942B0B4CA2A7B27A89C24DB /* ../Shared/Web */; };
+		89DD036FE7C66E82AF98C25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A3628EF1BAE19ABF0B7200 /* Assets.xcassets */; };
+		E77D29865326E8FA1B7209E3 /* LingoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A42BC0D710549E2FA85404 /* LingoraApp.swift */; };
+		FF4353DF38FCE7032D060EC8 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620D6BBECA4EC3B71A2A8E5 /* StudyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110A9A89971B225AF52C0C8F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4620D6BBECA4EC3B71A2A8E5 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		53A42BC0D710549E2FA85404 /* LingoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoraApp.swift; sourceTree = "<group>"; };
+		74A3628EF1BAE19ABF0B7200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1B7F51BBDAFE6AC82AD773 /* Lingora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lingora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A942B0B4CA2A7B27A89C24DB /* ../Shared/Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ../Shared/Web; sourceTree = SOURCE_ROOT; };
+		CED43F7902006B3C88663B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AB87534270CC591D91154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BE9CEBCCF96109775A5391 /* Lingora */ = {
+			isa = PBXGroup;
+			children = (
+				53A42BC0D710549E2FA85404 /* LingoraApp.swift */,
+				4620D6BBECA4EC3B71A2A8E5 /* StudyView.swift */,
+				74A3628EF1BAE19ABF0B7200 /* Assets.xcassets */,
+				110A9A89971B225AF52C0C8F /* PrivacyInfo.xcprivacy */,
+				CED43F7902006B3C88663B4A /* Info.plist */,
+			);
+			path = Lingora;
+			sourceTree = "<group>";
+		};
+		97F3905D6E02AE371D457243 = {
+			isa = PBXGroup;
+			children = (
+				45BE9CEBCCF96109775A5391 /* Lingora */,
+				A942B0B4CA2A7B27A89C24DB /* ../Shared/Web */,
+				C958E5511DD65B72ED4E38E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C958E5511DD65B72ED4E38E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1B7F51BBDAFE6AC82AD773 /* Lingora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383296E64A9DB886A440CB03 /* Lingora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81F173E01DC4FC3627C3869 /* Build configuration list for PBXNativeTarget "Lingora" */;
+			buildPhases = (
+				DF88428E338DA6C7A92E1AF6 /* Sources */,
+				39AB87534270CC591D91154C /* Frameworks */,
+				13D0DC431E49BC18E51233D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lingora;
+			productName = Lingora;
+			productReference = 7A1B7F51BBDAFE6AC82AD773 /* Lingora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F9B9FE635941CC07E55F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					383296E64A9DB886A440CB03 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9255F3FDA456ED06F493AE89 /* Build configuration list for PBXProject "Lingora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				it,
+				en,
+				Base,
+			);
+			mainGroup = 97F3905D6E02AE371D457243;
+			productRefGroup = C958E5511DD65B72ED4E38E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383296E64A9DB886A440CB03 /* Lingora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D0DC431E49BC18E51233D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72931B51E887708AC97467BD /* ../Shared/Web in Resources */,
+				664E4C554A572BD60B780B56 /* PrivacyInfo.xcprivacy in Resources */,
+				89DD036FE7C66E82AF98C25F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF88428E338DA6C7A92E1AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77D29865326E8FA1B7209E3 /* LingoraApp.swift in Sources */,
+				FF4353DF38FCE7032D060EC8 /* StudyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09299899BA1F29A4A2B4D61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		09FC74F7DB83C4D8A980DDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = B8SC92LPR5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lingora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = app.lingora.scuola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71F3549390B179706FE69130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = B8SC92LPR5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lingora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = app.lingora.scuola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0C4FC880C095582C5B09A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9255F3FDA456ED06F493AE89 /* Build configuration list for PBXProject "Lingora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09299899BA1F29A4A2B4D61A /* Debug */,
+				DD0C4FC880C095582C5B09A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81F173E01DC4FC3627C3869 /* Build configuration list for PBXNativeTarget "Lingora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F3549390B179706FE69130 /* Debug */,
+				09FC74F7DB83C4D8A980DDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F9B9FE635941CC07E55F5B /* Project object */;
+}
